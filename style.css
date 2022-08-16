@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+nav a{
+    text-decoration: none;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.right a{
+    margin: 5px;
+}
+.right img{
+    opacity: 0.5;
+}
+.right img:hover{
+    opacity: 1;
+}
+.right button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #4285F4;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+ }
+#mrc, #mic{
+    width: 20px;
+    height: auto;
+}
+
+/* #mrc{
+    width: 20px;
+    height: auto;
+} */
+footer{
+    bottom:0;
+    position:fixed;
+    background-color:#f2f2f2 ;
+    font-size:15px;
+    line-height: 36px;
+    width: 100%;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .footLeft{
+    float: left;
+    padding: 15px
+}
+.footRight{
+    float: right;
+    padding: 15px;
+} */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px auto 0px;
+}
+.arama{
+
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    width: 460px;
+    
+}
+.arama:hover{
+    box-shadow: 0 1 6 0.1 gray;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+input{
+    border: none;
+    width: 350px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#key{
+    align-items: 10px;
+    width: 40px;
+    height: 30px;
+}
+#mrc{
+    width: 25px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+#mic{
+    margin-left: 5px;
+    width: 15px;
+    margin: auto;
+}
+a{
+    border: 0px 5px;
+    text-decoration: none;
+}
+.lucy{
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.lucy button:hover{
+    box-shadow: rgba(0, 0, 0, 0.1);
+    border: 1px solid lightgray;
+}
+.lang a{
+    text-decoration: underline;
+    color:#000080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px ;
+
+}
+.lang a:visited{
+    color:#000080;
+}
+
+.lucy1, .lucy2{
+    background-color: rgb(239, 236, 236);
+    width: 125px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: #202124;
+    margin: 25px 0px;
+}
+.header1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px ;
+}
+.header2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px ;
+}
+a:visited{
+    color: #70757A;
+}
+nav a:hover, .header2 a:hover{
+    text-decoration: underline;
+
+}
+.lucy1 :hover{
+    box-shadow: rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
+.lucy2 :hover{
+    box-shadow: rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
